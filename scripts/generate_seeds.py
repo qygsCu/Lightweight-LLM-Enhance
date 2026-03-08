@@ -33,7 +33,7 @@ PRIORITIES = [
 
 
 def build_prompt():
-    with open("seeds.txt", mode="w", encoding="utf-8") as f:
+    with open("./data/seeds.txt", mode="w", encoding="utf-8") as f:
         for i in range(2000):
             wordV = random.choice(VERBS)
             wordO = random.choice(OBJECTS)
@@ -46,5 +46,8 @@ def build_prompt():
             else:
                 wordP = ""
             f.write(wordV + wordT + wordO + wordP + "\n")
+
+if __name__ == "__main__":
+    build_prompt()
         
 
