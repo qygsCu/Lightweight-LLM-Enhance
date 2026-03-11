@@ -20,22 +20,25 @@ OBJECTS = [
 ]
 
 TIMES = [
-    "明天早上8点半", "下周三下午", "2026年3月15日", "本月底", 
-    "两小时后", "今天下班前", "周末", 
-    "抽空", "随便哪天"
+    "明天早上8点半，", "下周三下午，", "2026年3月15日，", "本月底，", 
+    "两小时后，", "今天下班前，", "周末，"
+    "今年12月3号，", "明年3月8日，", "明年的今天，", "一个月后，"
 ]
 
 PRIORITIES = [
     "，十万火急", "，优先级拉满", "，最高优", "，马上要交", "非常紧迫",
-    "，正常处理", "，中等优先级", "不太急",
+    "，正常处理", "，中等优先级", "，不太急",
     "，不着急", "，慢慢来", "，顺手做一下"
 ]
 
 
 def build_prompt():
-    with open("./data/seeds.txt", mode="w", encoding="utf-8") as f:
+    with open("data\seeds.txt", mode="w", encoding="utf-8") as f:
         for i in range(2000):
-            wordV = random.choice(VERBS)
+            if random.random() > 0.5:
+                wordV = random.choice(VERBS)
+            else:
+                wordV = ""
             wordO = random.choice(OBJECTS)
             if random.random() > 0.6:
                 wordT = random.choice(TIMES)
