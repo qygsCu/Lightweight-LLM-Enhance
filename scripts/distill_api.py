@@ -5,9 +5,9 @@ import sqlite3
 API_KEY = "sk-33bf6506a45c452e91ab39248b48a73d"
 BASE_URL = "https://api.deepseek.com"
 DB_PATH = "data/teacher.db"
-SYSTEM_PROMPT = """你是一个精准的结构化数据提取引擎。
-请将输入转化为 JSON。输出必须是合法的 JSON 对象。
-注意：不要输出 Markdown 代码块，不要有废话。"""
+with open("prompts/teacher_v1.txt", mode="r", encoding="utf-8") as f:
+    SYSTEM_PROMPT = f.read()
+print(SYSTEM_PROMPT)
 CONCURRENT_LIMIT = 5
 RESPONSE_SCHEMA = {
     "type": "json_schema",
