@@ -1,73 +1,23 @@
 [
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "完成轻量级本地模型的性能优化测试，十万火急",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"high\"}"
+    "input": "备忘录加上：完成降低大模型幻觉的最新文献阅读，不着急",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"low\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：本月底，将Git仓库的代码合并",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"medium\"}"
+    "input": "将Git仓库的代码合并，不太急",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"low\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "两小时后，拿楼下的外卖",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-12-31 10:30\", \"priority\": null}"
+    "input": "帮我记一下：本月底，将Git仓库的代码合并，不着急",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"low\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：周末，今年12月3号，学习多线程汇编模型，马上要交",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：完成轻量级本地模型的性能优化测试，十万火急",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "交水电气费，优先级拉满",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "一个月后，给导师发周报",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-06-10 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "完成轻量级本地模型的性能优化测试，不着急",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：一个月后，交水电气费，最高优",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-10-21 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "一个月后，写完Java类型转换的底层逻辑测试，不太急",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2026-08-26 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "两小时后，学习多线程汇编模型，顺手做一下",
-    "output": "{\"title\": \"学习多线程汇编模型，顺手做一下\", \"due_date\": \"2026-12-31 10:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "下周三下午，完成taskmaster命令行的SQLite模块开发，最高优",
-    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-10-22 14:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：今天下班前，给导师发周报，优先级拉满",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-12-31 18:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "本月底，写完Java类型转换的底层逻辑测试，中等优先级",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"medium\"}"
+    "input": "我要做：2026年3月15日，复习CS231n的CNN笔记，正常处理",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-03-15 00:00\", \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
@@ -76,383 +26,8 @@
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：一个月后，完成taskmaster命令行的SQLite模块开发，慢慢来",
-    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-05-27 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "2026年3月15日，复习CS231n的CNN笔记，中等优先级",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-03-15 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：将Git仓库的代码合并",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "2026年3月15日，拿楼下的外卖",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-03-15 00:00\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：复习CS231n的CNN笔记，正常处理",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "我要做：复习CS231n的CNN笔记，马上要交",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：两小时后，拿楼下的外卖，顺手做一下",
-    "output": "{\"title\": \"拿楼下的外卖，顺手做一下\", \"due_date\": \"2026-12-31 10:30\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "周末，今年12月3号，交水电气费，不太急",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：今天下班前，交水电气费，十万火急",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-04-08 18:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "周末，今年12月3号，做Python装饰器的异常处理代码编写，慢慢来",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：学习多线程汇编模型，十万火急",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "一个月后，学习多线程汇编模型，正常处理",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-07-29 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "周末，今年12月3号，完成轻量级本地模型的性能优化测试，正常处理",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "拿楼下的外卖，不太急",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：今天下班前，去健身房练腿",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-12-31 17:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：完成轻量级本地模型的性能优化测试，顺手做一下",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：拿楼下的外卖，马上要交",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，拿楼下的外卖",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2027-03-08 00:00\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "我要做：将Git仓库的代码合并，不太急",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：去健身房练腿",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": null, \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "2026年3月15日，完成轻量级本地模型的性能优化测试",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-03-15 00:00\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "给导师发周报，最高优",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：2026年3月15日，给导师发周报",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-03-15 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：拿楼下的外卖非常紧迫",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，学习多线程汇编模型，最高优",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "下周三下午，给导师发周报，中等优先级",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-05-14 14:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：完成轻量级本地模型的性能优化测试，中等优先级",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "写完Java类型转换的底层逻辑测试，最高优",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：明天早上8点半，拿楼下的外卖，顺手做一下",
-    "output": "{\"title\": \"拿楼下的外卖，顺手做一下\", \"due_date\": \"2026-04-07 08:30\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：做Python装饰器的异常处理代码编写，马上要交",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-12-31 08:30\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：完成降低大模型幻觉的最新文献阅读",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：将Git仓库的代码合并，顺手做一下",
-    "output": "{\"title\": \"将Git仓库的代码合并，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：给导师发周报，不着急",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：交水电气费，优先级拉满",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "完成轻量级本地模型的性能优化测试，顺手做一下",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：完成轻量级本地模型的性能优化测试",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "我要做：完成降低大模型幻觉的最新文献阅读，中等优先级",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：完成轻量级本地模型的性能优化测试，马上要交",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "完成taskmaster命令行的SQLite模块开发，正常处理",
-    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，交水电气费，慢慢来",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，写完Java类型转换的底层逻辑测试",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2027-03-08 00:00\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：完成轻量级本地模型的性能优化测试，中等优先级",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "一个月后，做Python装饰器的异常处理代码编写非常紧迫",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-09-21 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "我要做：拿楼下的外卖，顺手做一下",
-    "output": "{\"title\": \"拿楼下的外卖，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：将Git仓库的代码合并",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：完成降低大模型幻觉的最新文献阅读，最高优",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "做Python装饰器的异常处理代码编写，不着急",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：明天早上8点半，完成轻量级本地模型的性能优化测试",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-07-13 08:30\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：拿楼下的外卖，马上要交",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：拿楼下的外卖，优先级拉满",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：去健身房练腿非常紧迫",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：写完Java类型转换的底层逻辑测试非常紧迫",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：下周三下午，写完Java类型转换的底层逻辑测试",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2026-05-14 14:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "周末，今年12月3号，完成轻量级本地模型的性能优化测试",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：今天下班前，完成taskmaster命令行的SQLite模块开发非常紧迫",
-    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-12-31 18:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：两小时后，去健身房练腿，优先级拉满",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-10-06 16:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "今天下班前，完成降低大模型幻觉的最新文献阅读，不着急",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": \"2026-10-09 18:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：学习多线程汇编模型，十万火急",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "今天下班前，做Python装饰器的异常处理代码编写非常紧迫",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-12-31 17:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：明天早上8点半，交水电气费",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-04-09 08:30\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：学习多线程汇编模型，顺手做一下",
-    "output": "{\"title\": \"学习多线程汇编模型，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "下周三下午，去健身房练腿非常紧迫",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-07-09 14:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：复习CS231n的CNN笔记，十万火急",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年的今天，去健身房练腿，顺手做一下",
-    "output": "{\"title\": \"去健身房练腿，顺手做一下\", \"due_date\": \"2027-06-30 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年的今天，完成taskmaster命令行的SQLite模块开发，十万火急",
-    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2027-07-11 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：今天下班前，给导师发周报",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-10-24 18:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：完成降低大模型幻觉的最新文献阅读，中等优先级",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：交水电气费，马上要交",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "今天下班前，给导师发周报非常紧迫",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-11-06 18:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "做Python装饰器的异常处理代码编写非常紧迫",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：周末，今年12月3号，拿楼下的外卖，慢慢来",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，写完Java类型转换的底层逻辑测试，优先级拉满",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "我要做：复习CS231n的CNN笔记，中等优先级",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：下周三下午，去健身房练腿，十万火急",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-10-14 14:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "将Git仓库的代码合并，最高优",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：两小时后，给导师发周报",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-12-31 10:30\", \"priority\": null}"
+    "input": "新建一个任务：明天早上8点半，完成轻量级本地模型的性能优化测试，顺手做一下",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试，顺手做一下\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
@@ -461,128 +36,48 @@
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：今天下班前，给导师发周报，正常处理",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-04-08 17:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "将Git仓库的代码合并，马上要交",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "学习多线程汇编模型非常紧迫",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：做Python装饰器的异常处理代码编写，慢慢来",
-    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：明天早上8点半，完成taskmaster命令行的SQLite模块开发，最高优",
-    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-12-06 08:30\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，将Git仓库的代码合并，优先级拉满",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：做Python装饰器的异常处理代码编写",
+    "input": "备忘录加上：做Python装饰器的异常处理代码编写",
     "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：完成轻量级本地模型的性能优化测试非常紧迫",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"high\"}"
+    "input": "2026年3月15日，完成轻量级本地模型的性能优化测试，慢慢来",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-03-15 00:00\", \"priority\": \"low\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：交水电气费，优先级拉满",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"high\"}"
+    "input": "学习多线程汇编模型，马上要交",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-12-31 00:00\", \"priority\": \"high\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：学习多线程汇编模型，慢慢来",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"low\"}"
+    "input": "明年的今天，完成轻量级本地模型的性能优化测试，马上要交",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2027-05-11 00:00\", \"priority\": \"high\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "两小时后，写完Java类型转换的底层逻辑测试，正常处理",
-    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2026-12-31 10:30\", \"priority\": \"medium\"}"
+    "input": "下周三下午，拿楼下的外卖，中等优先级",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-04-16 14:00\", \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：完成降低大模型幻觉的最新文献阅读，不太急",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"low\"}"
+    "input": "今天下班前，学习多线程汇编模型，马上要交",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-12-31 17:00\", \"priority\": \"high\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：本月底，完成降低大模型幻觉的最新文献阅读",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": \"2026-10-31 00:00\", \"priority\": null}"
+    "input": "新建一个任务：本月底，写完Java类型转换的底层逻辑测试，慢慢来",
+    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"low\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：复习CS231n的CNN笔记，不着急",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"low\"}"
+    "input": "本月底，完成taskmaster命令行的SQLite模块开发，优先级拉满",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"high\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：一个月后，将Git仓库的代码合并",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-06-15 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：明年3月8日，完成轻量级本地模型的性能优化测试，不太急",
-    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "两小时后，将Git仓库的代码合并，慢慢来",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-10-06 16:00\", \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：明年的今天，复习CS231n的CNN笔记非常紧迫",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2027-07-12 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：将Git仓库的代码合并非常紧迫",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "把任务栏加上：周末，今年12月3号，交水电气费",
-    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-12-03 00:00\", \"priority\": null}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "帮我记一下：学习多线程汇编模型，不着急",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"low\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：明天早上8点半，拿楼下的外卖，正常处理",
-    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-12-02 08:30\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：一个月后，复习CS231n的CNN笔记，顺手做一下",
-    "output": "{\"title\": \"复习CS231n的CNN笔记，顺手做一下\", \"due_date\": \"2026-05-17 00:00\", \"priority\": \"medium\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "本月底，完成降低大模型幻觉的最新文献阅读，最高优",
-    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"high\"}"
-  },
-  {
-    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "明年3月8日，去健身房练腿，优先级拉满",
-    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"high\"}"
+    "input": "帮我记一下：两小时后，交水电气费，优先级拉满",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-12-31 10:30\", \"priority\": \"high\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
@@ -591,8 +86,133 @@
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "我要做：明年3月8日，将Git仓库的代码合并非常紧迫",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"high\"}"
+    "input": "2026年3月15日，复习CS231n的CNN笔记非常紧迫",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-03-15 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：本月底，交水电气费，马上要交",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-12-31 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：明天早上8点半，交水电气费，十万火急",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：一个月后，交水电气费，正常处理",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-06-02 00:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：学习多线程汇编模型，最高优",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：拿楼下的外卖，最高优",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明天早上8点半，交水电气费，不着急",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明天早上8点半，将Git仓库的代码合并，不着急",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-05-16 08:30\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：做Python装饰器的异常处理代码编写，慢慢来",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明天早上8点半，复习CS231n的CNN笔记，正常处理",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：给导师发周报，最高优",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：今天下班前，完成taskmaster命令行的SQLite模块开发非常紧迫",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-12-31 18:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：将Git仓库的代码合并，顺手做一下",
+    "output": "{\"title\": \"将Git仓库的代码合并，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "今天下班前，交水电气费，顺手做一下",
+    "output": "{\"title\": \"交水电气费，顺手做一下\", \"due_date\": \"2026-12-31 18:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明天早上8点半，做Python装饰器的异常处理代码编写，优先级拉满",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：下周三下午，完成taskmaster命令行的SQLite模块开发，优先级拉满",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-04-16 14:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明年的今天，完成降低大模型幻觉的最新文献阅读，马上要交",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": \"2027-08-03 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "本月底，将Git仓库的代码合并",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-12-31 00:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：去健身房练腿，优先级拉满",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "复习CS231n的CNN笔记非常紧迫",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：写完Java类型转换的底层逻辑测试",
+    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：明年的今天，复习CS231n的CNN笔记，不着急",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2027-05-24 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "下周三下午，给导师发周报，中等优先级",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-05-14 14:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：做Python装饰器的异常处理代码编写，十万火急",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：2026年3月15日，去健身房练腿",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-03-15 00:00\", \"priority\": null}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：完成降低大模型幻觉的最新文献阅读，中等优先级",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
@@ -601,27 +221,407 @@
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "备忘录加上：做Python装饰器的异常处理代码编写",
+    "input": "新建一个任务：复习CS231n的CNN笔记，不着急",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：交水电气费",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "写完Java类型转换的底层逻辑测试，顺手做一下",
+    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：明天早上8点半，完成taskmaster命令行的SQLite模块开发，不着急",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "交水电气费，正常处理",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "完成降低大模型幻觉的最新文献阅读，优先级拉满",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：完成taskmaster命令行的SQLite模块开发，中等优先级",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：明年的今天，交水电气费，慢慢来",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2027-07-11 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "两小时后，完成taskmaster命令行的SQLite模块开发非常紧迫",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-10-06 16:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "完成降低大模型幻觉的最新文献阅读",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：明天早上8点半，学习多线程汇编模型，最高优",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明年的今天，学习多线程汇编模型，十万火急",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2027-07-06 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：2026年3月15日，完成降低大模型幻觉的最新文献阅读",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": \"2026-03-15 00:00\", \"priority\": null}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明年3月8日，完成轻量级本地模型的性能优化测试",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2027-03-08 00:00\", \"priority\": null}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：完成taskmaster命令行的SQLite模块开发，优先级拉满",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：完成降低大模型幻觉的最新文献阅读，中等优先级",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：做Python装饰器的异常处理代码编写，不太急",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：复习CS231n的CNN笔记",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "写完Java类型转换的底层逻辑测试，不太急",
+    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "下周三下午，做Python装饰器的异常处理代码编写，不着急",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-10-21 14:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：两小时后，完成taskmaster命令行的SQLite模块开发",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-04-07 16:30\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：本月底，拿楼下的外卖",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-12-31 00:00\", \"priority\": null}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "交水电气费，十万火急",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "给导师发周报，顺手做一下",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：明年的今天，拿楼下的外卖，不着急",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2027-06-17 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：两小时后，给导师发周报，优先级拉满",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-12-31 10:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：完成降低大模型幻觉的最新文献阅读，优先级拉满",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：周末，今年12月3号，给导师发周报，优先级拉满",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "两小时后，完成taskmaster命令行的SQLite模块开发，优先级拉满",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": \"2026-12-31 10:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：给导师发周报，最高优",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：完成降低大模型幻觉的最新文献阅读，最高优",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：给导师发周报",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明天早上8点半，完成轻量级本地模型的性能优化测试非常紧迫",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "完成降低大模型幻觉的最新文献阅读，十万火急",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：做Python装饰器的异常处理代码编写，中等优先级",
     "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "2026年3月15日，将Git仓库的代码合并，正常处理",
-    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-03-15 00:00\", \"priority\": \"medium\"}"
+    "input": "明年3月8日，给导师发周报，中等优先级",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"medium\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "新建一个任务：明年3月8日，给导师发周报，十万火急",
-    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"high\"}"
+    "input": "备忘录加上：两小时后，将Git仓库的代码合并，不太急",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-12-31 10:30\", \"priority\": \"low\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "添加任务：学习多线程汇编模型",
-    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"medium\"}"
+    "input": "新建一个任务：周末，今年12月3号，做Python装饰器的异常处理代码编写，最高优",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"high\"}"
   },
   {
     "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
-    "input": "本月底，复习CS231n的CNN笔记",
-    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-12-31 23:59\", \"priority\": null}"
+    "input": "备忘录加上：将Git仓库的代码合并，十万火急",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "复习CS231n的CNN笔记，马上要交",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-12-31 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：做Python装饰器的异常处理代码编写，中等优先级",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "帮我记一下：今天下班前，将Git仓库的代码合并，正常处理",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2026-12-31 17:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：完成降低大模型幻觉的最新文献阅读，马上要交",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": \"2026-12-31 08:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：完成轻量级本地模型的性能优化测试，中等优先级",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明年的今天，完成轻量级本地模型的性能优化测试，最高优",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2027-05-30 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "两小时后，学习多线程汇编模型，马上要交",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-12-31 10:30\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：明天早上8点半，给导师发周报，不着急",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明年3月8日，将Git仓库的代码合并",
+    "output": "{\"title\": \"将Git仓库的代码合并\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：周末，今年12月3号，去健身房练腿，慢慢来",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "本月底，拿楼下的外卖，十万火急",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-10-31 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明年的今天，复习CS231n的CNN笔记，马上要交",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2027-07-17 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：下周三下午，写完Java类型转换的底层逻辑测试",
+    "output": "{\"title\": \"写完Java类型转换的底层逻辑测试\", \"due_date\": \"2026-05-14 14:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "完成降低大模型幻觉的最新文献阅读，顺手做一下",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：学习多线程汇编模型，慢慢来",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "周末，今年12月3号，完成轻量级本地模型的性能优化测试，马上要交",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：本月底，交水电气费，慢慢来",
+    "output": "{\"title\": \"交水电气费\", \"due_date\": \"2026-04-30 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "做Python装饰器的异常处理代码编写，最高优",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：做Python装饰器的异常处理代码编写，正常处理",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写，正常处理\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：复习CS231n的CNN笔记，十万火急",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：完成taskmaster命令行的SQLite模块开发，最高优",
+    "output": "{\"title\": \"完成taskmaster命令行的SQLite模块开发\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：明年3月8日，拿楼下的外卖，正常处理",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2027-03-08 00:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "做Python装饰器的异常处理代码编写，马上要交",
+    "output": "{\"title\": \"做Python装饰器的异常处理代码编写\", \"due_date\": \"2026-12-31 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：周末，今年12月3号，学习多线程汇编模型",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：本月底，去健身房练腿",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-04-30 00:00\", \"priority\": null}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：完成轻量级本地模型的性能优化测试",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "把任务栏加上：给导师发周报，马上要交",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "下周三下午，将Git仓库的代码合并，顺手做一下",
+    "output": "{\"title\": \"将Git仓库的代码合并，顺手做一下\", \"due_date\": \"2026-05-14 14:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：去健身房练腿，顺手做一下",
+    "output": "{\"title\": \"去健身房练腿，顺手做一下\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "去健身房练腿，不太急",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "我要做：周末，今年12月3号，完成轻量级本地模型的性能优化测试，慢慢来",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "周末，今年12月3号，拿楼下的外卖，慢慢来",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "添加任务：给导师发周报，正常处理",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：周末，今年12月3号，学习多线程汇编模型，马上要交",
+    "output": "{\"title\": \"学习多线程汇编模型\", \"due_date\": \"2026-12-03 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：给导师发周报，不太急",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "完成降低大模型幻觉的最新文献阅读，不太急",
+    "output": "{\"title\": \"完成降低大模型幻觉的最新文献阅读\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "备忘录加上：拿楼下的外卖，不着急",
+    "output": "{\"title\": \"拿楼下的外卖\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：今天下班前，给导师发周报",
+    "output": "{\"title\": \"给导师发周报\", \"due_date\": \"2026-10-24 18:00\", \"priority\": \"medium\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：一个月后，去健身房练腿非常紧迫",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": \"2026-05-23 00:00\", \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "完成轻量级本地模型的性能优化测试，马上要交",
+    "output": "{\"title\": \"完成轻量级本地模型的性能优化测试\", \"due_date\": null, \"priority\": \"high\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "新建一个任务：去健身房练腿，慢慢来",
+    "output": "{\"title\": \"去健身房练腿\", \"due_date\": null, \"priority\": \"low\"}"
+  },
+  {
+    "instruction": "请将下面的自然语言指令解析为 JSON 格式的任务数据。",
+    "input": "明天早上8点半，复习CS231n的CNN笔记",
+    "output": "{\"title\": \"复习CS231n的CNN笔记\", \"due_date\": \"2026-04-09 08:30\", \"priority\": \"medium\"}"
   }
 ]
